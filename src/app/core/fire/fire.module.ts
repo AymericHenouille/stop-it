@@ -7,12 +7,12 @@ import { getFirestore, provideFirestore } from '@angular/fire/firestore';
  * The options for the Firebase app.
  */
 const options: FirebaseOptions = {
-  projectId: 'dontstopmenow',
-  appId: '1:833662679608:web:2bb1093644a8ac7a8644cd',
-  storageBucket: 'dontstopmenow.appspot.com',
   apiKey: 'AIzaSyCqkyPCZtGQSlbobdJKEB-LGqfFwNGsod8',
   authDomain: 'dontstopmenow.firebaseapp.com',
-  messagingSenderId: '833662679608'
+  projectId: 'dontstopmenow',
+  storageBucket: 'dontstopmenow.appspot.com',
+  messagingSenderId: '833662679608',
+  appId: '1:833662679608:web:2bb1093644a8ac7a8644cd'
 };
 
 /**

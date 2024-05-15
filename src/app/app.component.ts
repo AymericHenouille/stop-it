@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
+/**
+ * The root component of the app.
+ */
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: '<router-outlet></router-outlet>'
 })
-export class AppComponent {
-  title = 'stop-it';
-}
+export class AppComponent { }
